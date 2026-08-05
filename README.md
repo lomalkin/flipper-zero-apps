@@ -44,3 +44,11 @@ An experimental flavor on the LF RFID coil: the receiver drives the field, the s
 
 - **~315 B/s**
 - Works in near-contact: hold the coils ~2 cm apart (not pressed together) and keep them still
+
+
+### 🔑 [Flipper Share iButton](flipper_share_ibutton) — over the 1-Wire pad
+
+An experimental flavor on the iButton pad: the receiver drives the 1-Wire bus as host, the sender answers as a slave. Touch the two pads together.
+
+- **~1.2 KB/s** expected (standard-speed slots; estimate, not yet bench-measured)
+- Works in contact: touch the pads, or wire pin 17 ↔ pin 17 plus GND ↔ GND
